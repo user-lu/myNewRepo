@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-light">
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
         <a class="navbar-brand" href="./index.html"><h1>Luis Sevilla</h1>
@@ -30,6 +30,39 @@
             </div>
         </div>
     </nav>
+
+    <main class="container p-4">
+        <section class="container col-10 bg-white py-5">
+            <br>
+            <h1 class="">Contact Me</h1>
+            <hr>
+            <br>
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputName1">Name</label>
+                  <input type="name" class="form-control" aria-describedby="nameHelp">
+                  <small id="nameHelp" class="form-text text-muted">I'll never share your name with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputMessage1">Message</label>
+                  <input type="message" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </section>
+     </main>           
+
+    <!-- Footer -->
+    <footer class="bg-dark page-footer pt-4">
+        <!-- Copyright -->
+            <div class="footer-copyright bg-secondary text-center py-3">© 2020 Copyright
+            </div>    
+          </footer>    
 
     <!-- Bootstrap Javascript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
